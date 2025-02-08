@@ -1,0 +1,30 @@
+@use 'variables';
+header {
+    background-color:variables.$primary-color;
+    color: variables.$white;
+    padding: 20px;
+  
+  h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+}
+nav{
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      
+      li {
+        display: inline-block;
+        margin-right: 15px;
+     
+       a {
+        color: variables.$white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+  }
+}

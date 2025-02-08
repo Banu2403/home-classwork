@@ -1,0 +1,22 @@
+@use 'variables';
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .card {
+    background-color: variables.$white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    h3 {
+        margin-top: 0;
+        color: variables.$primary-color;
+      }
+
+}
+  

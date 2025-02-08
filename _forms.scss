@@ -1,0 +1,36 @@
+@use 'variables';
+
+form{
+    background-color:variables.$white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      
+       input[type="text"],
+       input[type="email"],
+       textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        box-sizing: border-box;
+      }
+      button {
+        background-color: variables.$primary-color;
+        color:variables.$white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      &:hover {
+        background-color:variables.$primary-color;
+      }
+}
+  

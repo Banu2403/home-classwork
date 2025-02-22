@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb | Vacation rentals, cabins, beach houses, & more</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="/logobnb.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body class="p-6 sm: flex flex-col">
+    <header class="flex justify-between items-center text-center mx-7  ">
+        <!-- Logo -->
+         
+        <div class="text-red-500  font-bold flex items-center text-2xl">
+            <i class="fa-brands fa-airbnb text-4xl"></i>
+            airbnb
+        </div>
+        
+        <!-- Navigation -->
+        <nav class="flex space-x-6 text-gray-600 text-xl">
+            <a href="#" class="font-semibold text-black hover:bg-gray-100 p-3 rounded-full">Stays</a>
+            <a href="#" class="hover:bg-gray-100 p-3 rounded-full">Experiences</a>
+        </nav>
+        
+        <!-- User Actions -->
+        <div class="flex items-center space-x-4">
+            <a href="#" class="font-semibold hover:bg-gray-100 p-3 rounded-full" >Airbnb your home</a>
+            <button class="p-2 rounded-full hover:bg-gray-100">
+                <i class="fa-solid fa-globe"></i>
+            </button>
+            <button class="flex items-center border p-3 rounded-full hover:shadow-lg">
+                <span class="mr-2"><i class="fa-solid fa-bars"></i></span>
+                <span class="w-6 h-6 bg-gray-500 rounded-full text-white">
+                    <i class="fa-solid fa-user"></i>
+                </span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Search Bar -->
+    <div class="flex justify-center mt-6  ">
+        <div class="flex items-center shadow-lg rounded-full p-4 bg-white border border-gray-300  gap-[70px]">
+            <div class="px-4 border-r hover:bg-gray-200 rounded-full">
+                <p class="text-sm font-semibold">Where</p>
+                <input type="text" placeholder="Search destinations" class="outline-none  text-gray-500 text-sm hover:bg-gray-200">
+            </div>
+            <div class="px-4 border-r hover:bg-gray-200 rounded-full">
+                <p class="text-sm font-semibold">Check in</p>
+                <p class="text-gray-500 text-lg">add dates</p>
+            </div>
+            <div class="px-4 border-r hover:bg-gray-200 rounded-full">
+                <p class="text-sm font-semibold">Check out</p>
+                <p class="text-gray-500 text-lg">add dates</p>
+            </div>
+            <div class="hover:bg-gray-200 rounded-full flex gap-[60px]">
+            <div class="px-4">
+                <p class="text-sm font-semibold">Who</p>
+               <p class="text-gray-500 text-lg">add guests</p>
+            </div>
+            <button class="bg-red-500 text-white p-4 py-3 rounded-full ml-4">
+                <i class="fa-solid fa-magnifying-glass "></i>
+            </button>
+            </div>
+        </div>
+    </div>
+    <section class="flex justify-center items-center p-9 ">
+        <div class="flex gap-7 text-gray-500 items-center">
+            <i  class="fa-solid fa-hippo hover:text-black"></i>
+            <i class="fa-solid fa-user-astronaut  hover:text-black"></i>
+            <i class="fa-solid fa-shuttle-space  hover:text-black"></i>
+
+            <div class="text-base justify-around flex">
+                <h1 class="border border-gray-200 text-black p-3 rounded-lg hover:border-black hover:bg-gray-200"><i
+                        class="fa-solid fa-sliders"></i>Filters</h1>
+            </div>  
+            <div>
+                <h1 class="border border-gray-200 p-3 rounded-lg text-black hover:border-black hover:bg-gray-200">display total
+                    before taxes</h1>
+            </div>
+    </section>
+    <div class="flex justify-center gap-[20px] p[20px] grid grid-cols-1 sm:grid-cols-2 sm:items-center lg:grid-cols-4 gap-6">
+        <div class="bg-white p-[10px] rounded-xl w-[220px] text-center ">
+            <img src="/9e1dc69d-c64f-4052-8dad-6f089fa04b6e (1).jpeg"class="w-[100%] h-[250px] rounded-xl" alt="">
+            <p>Paris,France</p>
+        </div>
+
+        <div class="bg-white p-[10px] rounded-xl w-[220px] text-center ">
+            <img src="/9e1dc69d-c64f-4052-8dad-6f089fa04b6e (1).jpeg" class="w-[100%] h-[250px] rounded-xl" alt="">
+            <p>Paris,Franse</p>
+        </div>
+
+        <div class="bg-white p-[10px] rounded-xl w-[220px] text-center">
+            <img src="/9e1dc69d-c64f-4052-8dad-6f089fa04b6e (1).jpeg" class="w-[100%] h-[250px] rounded-xl" alt="">
+            <p>Paris,France</p>
+        </div>
+        <div class="bg-white p-[10px] rounded-xl w-[220px] text-center">
+            <img src="/9e1dc69d-c64f-4052-8dad-6f089fa04b6e (1).jpeg" class="w-[100%] h-[250px] rounded-xl" alt="">
+            <p>Paris,France</p>
+        </div>
+    </div>
+    <div class="bg-gray-100">
+        <br><br><hr><br><br>
+        <h1 class=" text-2xl px-[50px] font-semibold justify-center items-center">Inspiration for future getaways</h1><br><br>
+        <div class="flex justify-center items-center">
+            <br><br>Help Center <br>AirCover <br>Anti-discrimination <br> Disability support<br> Cancellation options <br> Report neighborhood concern
+        </div><br><hr><br>
+        <div class="px-[50px]">© 2025 Airbnb, Inc. · Terms Sitemap · Privacy Your · Privacy Choices</div>
+    </div> 
+</body>
+</html>
